@@ -24,7 +24,7 @@ public class MyConsumer {
 		ServiceInstance serviceInstance=instances.get(0);
 		String baseUrl=serviceInstance.getUri().toString();
 		
-		baseUrl=baseUrl+"/myservice/student";
+		baseUrl=baseUrl+"/producer-ws/student";
 		
 		
 		//BAU
